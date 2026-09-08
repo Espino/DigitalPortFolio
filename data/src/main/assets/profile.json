@@ -13,12 +13,12 @@
   },
   "contact": {
     "email": "tu-email@dominio.com",
-    "phone": "+34 600 000 000",
-    "websiteUrl": "https://TU_USUARIO.github.io/digital-portfolio/",
+    "phone": "+34 669 085 418",
+    "websiteUrl": "https://espino.github.io/DigitalPortFolio/",
     "linkedInUrl": "",
-    "githubUrl": "https://github.com/TU_USUARIO",
-    "whatsAppUrl": "https://wa.me/34600000000",
-    "cvUrl": "https://TU_USUARIO.github.io/digital-portfolio/cv.html"
+    "githubUrl": "https://github.com/Espino",
+    "whatsAppUrl": "https://wa.me/34669085418",
+    "cvUrl": "https://espino.github.io/DigitalPortFolio/cv.html"
   },
   "highlights": [
     { "label": "Especialidad", "value": "Apps móviles" },
