@@ -59,7 +59,7 @@ fun HomeScreen(
                 PageHeader(
                     eyebrow = "Tarjeta profesional",
                     title = "Perfil",
-                    subtitle = "Una presentación breve para iniciar una conversación y profundizar después.",
+                    subtitle = "Mi identidad digital",
                     state = state,
                     onIntent = onIntent,
                 )

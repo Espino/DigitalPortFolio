@@ -58,7 +58,7 @@ fun ContactScreen(
             Column(Modifier.fillMaxWidth().widthIn(max = 920.dp)) {
                 PageHeader(
                     eyebrow = "Networking",
-                    title = "Sigamos la conversación",
+                    title = "Proyectos Digitales",
                     subtitle = profile.identity.availability,
                     state = state,
                     onIntent = onIntent,
@@ -105,7 +105,7 @@ private fun ContactHero(
             )
             Text(name, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
             Text(
-                "Escanea el QR o guarda directamente mis datos en tu agenda.",
+                "Escanea el QR o guarda mis datos en tu agenda.",
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

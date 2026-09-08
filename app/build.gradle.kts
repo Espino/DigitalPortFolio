@@ -4,7 +4,7 @@ plugins {
 }
 
 val portfolioBaseUrl = providers.gradleProperty("PORTFOLIO_BASE_URL")
-    .orElse("https://TU_USUARIO.github.io/digital-portfolio/")
+    .orElse("https://espino.github.io/DigitalPortFolio/")
 
 android {
     namespace = "com.jordiphonedeveloper.digitalportfolio"
