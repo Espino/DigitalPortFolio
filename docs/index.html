@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071521">
+  <meta name="description" content="Perfil profesional, experiencia, proyectos y contacto de Jordi Developer.">
+  <title>Jordi Developer · Digital Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" id="brandInitials">JD</span>
+        <span class="brand-copy">
+          <strong id="brandName">Jordi Developer</strong>
+          <small>Digital Portfolio</small>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a class="nav-cta" href="#contacto">Contacto</a>
+      </div>
+      <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span><span class="sr-only">Abrir menú</span>
+      </button>
+    </nav>
+    <nav class="mobile-menu shell" id="mobileMenu" aria-label="Navegación móvil" hidden>
+      <a href="#servicios">Servicios</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero shell" id="inicio">
+      <div class="template-banner" id="templateBanner" hidden>
+        Plantilla activa: personaliza <code>docs/profile.json</code> antes de compartir este enlace.
+      </div>
+      <div class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">Producto móvil · Arquitectura · Operaciones</p>
+          <h1 id="fullName">Jordi Developer</h1>
+          <p class="headline" id="headline">Empresario · Senior Android &amp; iOS Developer · Director de Operaciones</p>
+          <p class="hero-pitch" id="elevatorPitch"></p>
+          <div class="hero-actions">
+            <a class="button primary" id="emailButton" href="#contacto">Contactar</a>
+            <a class="button secondary" id="cvButton" href="cv.html">Ver currículum</a>
+            <button class="button ghost" id="shareButton" type="button">Compartir perfil</button>
+          </div>
+          <p class="availability"><span aria-hidden="true"></span><span id="availability"></span></p>
+        </div>
+
+        <div class="identity-panel" aria-label="Tarjeta profesional">
+          <div class="avatar-wrap">
+            <div class="avatar" id="avatar" aria-label="Fotografía o iniciales del perfil">
+              <span id="avatarInitials">JD</span>
+              <img id="profilePhoto" alt="" hidden>
+            </div>
+            <span class="status-ring" aria-hidden="true"></span>
+          </div>
+          <p class="identity-role">Senior Mobile &amp; Operations</p>
+          <p class="identity-location" id="location"></p>
+          <div class="code-signature" aria-hidden="true">
+            <span>&lt;</span><strong>JD</strong><span>/&gt;</span>
+          </div>
+        </div>
+      </div>
+      <div class="highlights" id="highlights" aria-label="Resumen profesional"></div>
+    </section>
+
+    <section class="section shell" id="servicios">
+      <div class="section-heading">
+        <p class="eyebrow">Cómo puedo aportar</p>
+        <h2>De la oportunidad a un producto que funciona</h2>
+        <p>Una visión unificada de negocio, experiencia, tecnología y operación.</p>
+      </div>
+      <div class="card-grid services-grid" id="services"></div>
+    </section>
+
+    <section class="section section-panel" id="experiencia">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Trayectoria</p>
+            <h2>Experiencia y criterio operativo</h2>
+          </div>
+          <p>Construir bien también significa priorizar, coordinar, medir y mejorar.</p>
+        </div>
+        <div class="operations" id="operations"></div>
+        <div class="timeline" id="experience"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="proyectos">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Proyectos destacados</h2>
+        <p>Producto, arquitectura móvil y soluciones conectadas con necesidades reales.</p>
+      </div>
+      <div class="card-grid projects-grid" id="projects"></div>
+    </section>
+
+    <section class="section shell skills-section" aria-labelledby="skillsTitle">
+      <div class="section-heading compact">
+        <p class="eyebrow">Stack y capacidades</p>
+        <h2 id="skillsTitle">Herramientas al servicio del producto</h2>
+      </div>
+      <div class="skill-list" id="skills"></div>
+    </section>
+
+    <section class="section shell" id="contacto">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Networking</p>
+          <h2>Sigamos la conversación</h2>
+          <p id="contactPitch">Si tienes una idea, un producto que necesita evolucionar o una operación que simplificar, hablemos.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" id="contactEmail" href="#">Enviar email</a>
+          <button class="button secondary" id="vcardButton" type="button">Guardar contacto</button>
+          <a class="text-link" id="phoneLink" href="#"></a>
+          <a class="text-link" id="linkedInLink" href="#" hidden>LinkedIn</a>
+          <a class="text-link" id="githubLink" href="#" hidden>GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <p><strong id="footerName">Jordi Developer</strong> · <span id="currentYear"></span></p>
+    <p>Perfil actualizado: <time id="updatedAt"></time></p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

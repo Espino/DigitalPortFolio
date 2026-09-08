@@ -1,0 +1,135 @@
+
+**/build/
+*.jks
+*.keystore
+secrets.properties
+
+
+############################################
+# ANDROID / GRADLE
+############################################
+
+# Build outputs
+/build/
+*/build/
+**/build
+
+# Gradle cache
+.gradle/
+
+# Local configuration (SDK path, creds, etc)
+local.properties
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Proguard / R8
+proguard/
+*.mapping
+
+############################################
+# ANDROID STUDIO / INTELLIJ
+############################################
+
+# Project settings
+*.iml
+.idea/
+
+# BUT allow code style settings
+!.idea/codeStyles/
+# Uncomment if you want inspection profiles tracked:
+#!.idea/inspectionProfiles/
+
+# Ignore generated & machine-specific files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/misc.xml
+.idea/gradle.xml
+.idea/kotlinc.xml
+
+# Android Studio captures
+captures/
+
+############################################
+# NODE / JAVASCRIPT
+############################################
+
+# Node modules
+node_modules/
+
+############################################
+# COMPILED OUTPUT
+############################################
+
+# Java/Kotlin
+*.class
+*.jar
+
+# Python
+*.py[cod]
+
+# Maven / Java builds
+target/
+dist/
+
+############################################
+# EXECUTABLES
+############################################
+
+*.exe
+*.app
+*.war
+
+############################################
+# LOG FILES
+############################################
+
+*.log
+
+############################################
+# MAC / WINDOWS / OS FILES
+############################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+############################################
+# MEDIA / LARGE FILES (opcional)
+############################################
+
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+############################################
+# MISC
+############################################
+
+# Testing
+TEST*.xml
+
+# Output folder
+/out/
+
+# JVM heap dumps
+*.hprof
+java_pid*.hprof
+
+
+# Generated Room schema output is kept only when intentionally committed.
+core/database/schemas/*.json
+
+

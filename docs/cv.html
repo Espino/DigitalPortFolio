@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071521">
+  <meta name="description" content="Currículum profesional de Jordi Developer.">
+  <title>Currículum · Jordi Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="cv.js" defer></script>
+</head>
+<body class="cv-body">
+  <a class="skip-link" href="#cvContent">Saltar al currículum</a>
+  <header class="cv-toolbar shell">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" id="cvBrandInitials">JD</span>
+      <span class="brand-copy"><strong>Volver al perfil</strong><small>Digital Portfolio</small></span>
+    </a>
+    <button class="button primary" id="printButton" type="button">Imprimir / Guardar PDF</button>
+  </header>
+
+  <main class="cv-page" id="cvContent">
+    <header class="cv-header">
+      <div>
+        <p class="eyebrow">Currículum profesional</p>
+        <h1 id="cvName">Jordi Developer</h1>
+        <p class="headline" id="cvHeadline"></p>
+        <p id="cvLocation"></p>
+      </div>
+      <div class="cv-monogram" id="cvMonogram">JD</div>
+    </header>
+
+    <section class="cv-intro">
+      <h2>Perfil</h2>
+      <p id="cvBio"></p>
+      <p id="cvPitch"></p>
+    </section>
+
+    <div class="cv-columns">
+      <div class="cv-main">
+        <section>
+          <h2>Experiencia</h2>
+          <div id="cvExperience"></div>
+        </section>
+        <section>
+          <h2>Proyectos</h2>
+          <div id="cvProjects"></div>
+        </section>
+      </div>
+      <aside class="cv-side">
+        <section>
+          <h2>Contacto</h2>
+          <div id="cvContact"></div>
+        </section>
+        <section>
+          <h2>Competencias</h2>
+          <div class="skill-list" id="cvSkills"></div>
+        </section>
+        <section>
+          <h2>Formación</h2>
+          <div id="cvCredentials"></div>
+        </section>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>

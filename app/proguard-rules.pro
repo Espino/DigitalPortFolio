@@ -1,0 +1,2 @@
+-keep class com.jordiphonedeveloper.digitalportfolio.core.network.dto.** { *; }
+-dontwarn javax.annotation.**

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-07",
+  "identity": {
+    "fullName": "Jordi Developer",
+    "initials": "JD",
+    "headline": "Empresario · Senior Android & iOS Developer · Director de Operaciones",
+    "location": "Rivas-Vaciamadrid · Madrid · España",
+    "availability": "Disponible para colaboraciones, producto digital y proyectos estratégicos",
+    "photoUrl": "",
+    "shortBio": "Desarrollo productos móviles sólidos, claros y escalables, conectando estrategia, experiencia de usuario, arquitectura técnica y operación.",
+    "elevatorPitch": "Ayudo a empresas y emprendedores a convertir una necesidad real en una app útil y mantenible. Aporto visión de producto, desarrollo móvil senior y dirección operativa para llevar cada iniciativa desde la idea hasta una solución que pueda crecer."
+  },
+  "contact": {
+    "email": "tu-email@dominio.com",
+    "phone": "+34 600 000 000",
+    "websiteUrl": "https://TU_USUARIO.github.io/digital-portfolio/",
+    "linkedInUrl": "",
+    "githubUrl": "https://github.com/TU_USUARIO",
+    "whatsAppUrl": "https://wa.me/34600000000",
+    "cvUrl": "https://TU_USUARIO.github.io/digital-portfolio/cv.html"
+  },
+  "highlights": [
+    { "label": "Especialidad", "value": "Apps móviles" },
+    { "label": "Nivel", "value": "Senior" },
+    { "label": "Enfoque", "value": "Producto + Operaciones" }
+  ],
+  "services": [
+    {
+      "title": "Desarrollo Android",
+      "description": "Apps nativas con Kotlin, Jetpack Compose, Clean Architecture, MVVI, Room, Koin y APIs.",
+      "icon": "android"
+    },
+    {
+      "title": "iOS y multiplataforma",
+      "description": "Diseño de soluciones móviles coherentes entre plataformas y preparadas para evolucionar.",
+      "icon": "mobile"
+    },
+    {
+      "title": "Arquitectura y modernización",
+      "description": "Auditoría, modularización, rendimiento, accesibilidad y mejora de bases de código existentes.",
+      "icon": "architecture"
+    },
+    {
+      "title": "Dirección de operaciones",
+      "description": "Priorización, coordinación, procesos, calidad de entrega y conexión entre negocio y tecnología.",
+      "icon": "operations"
+    }
+  ],
+  "operations": [
+    {
+      "title": "Descubrimiento",
+      "description": "Aterrizo el problema, las personas usuarias, el valor y las métricas antes de construir."
+    },
+    {
+      "title": "Arquitectura",
+      "description": "Defino una base técnica simple, comprobable y preparada para el crecimiento del producto."
+    },
+    {
+      "title": "Entrega",
+      "description": "Convierto prioridades en incrementos funcionales con calidad, observabilidad y documentación."
+    },
+    {
+      "title": "Mejora continua",
+      "description": "Analizo uso, incidencias y objetivos para evolucionar la solución con criterio de negocio."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Empresario y Director de Operaciones",
+      "company": "Tu empresa o marca",
+      "period": "[AAAA] — Actualidad",
+      "summary": "Dirección de producto y operaciones digitales, coordinación de entregas y creación de soluciones adaptadas a pymes y emprendimiento.",
+      "achievements": [
+        "Sustituye este punto por un resultado medible de negocio.",
+        "Añade aquí una mejora de proceso, eficiencia o crecimiento.",
+        "Incluye una colaboración o iniciativa relevante para tu audiencia."
+      ]
+    },
+    {
+      "role": "Senior Android & Mobile Developer",
+      "company": "Proyectos para clientes y producto propio",
+      "period": "[AAAA] — Actualidad",
+      "summary": "Diseño y desarrollo de aplicaciones móviles con foco en arquitectura, mantenibilidad, experiencia de usuario y rendimiento.",
+      "achievements": [
+        "Apps Android con Kotlin y Jetpack Compose.",
+        "Clean Architecture, MVVI, Koin, Room, Retrofit y procesos offline-first.",
+        "Integración de servicios, analítica, publicación y mejora continua."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "BeautyCRM Pro",
+      "summary": "CRM móvil para pymes y profesionales con clientes, agenda, servicios, bonos, ingresos y copias de seguridad.",
+      "role": "Producto · Android · Operaciones",
+      "technologies": ["Kotlin", "Compose", "MVVI", "Room", "Koin"],
+      "url": ""
+    },
+    {
+      "name": "Ruta de la Tapa Rivas 2026",
+      "summary": "Experiencia móvil local con catálogo, mapa, votación, ranking y funcionamiento conectado y offline.",
+      "role": "Arquitectura · Desarrollo Android",
+      "technologies": ["Compose", "Maps", "Retrofit", "Room"],
+      "url": ""
+    },
+    {
+      "name": "Digital Portfolio",
+      "summary": "Tarjeta profesional conectada a una web pública mediante QR y contenido versionado en GitHub.",
+      "role": "Concepto · Diseño · Desarrollo",
+      "technologies": ["Android", "GitHub Pages", "QR", "Offline-first"],
+      "url": "https://TU_USUARIO.github.io/digital-portfolio/"
+    }
+  ],
+  "skills": [
+    "Kotlin",
+    "Jetpack Compose",
+    "Android",
+    "iOS",
+    "Clean Architecture",
+    "MVVM / MVI / MVVI",
+    "Koin",
+    "Room",
+    "Retrofit",
+    "APIs REST",
+    "Diseño de producto",
+    "Dirección de operaciones",
+    "Accesibilidad",
+    "Rendimiento"
+  ],
+  "credentials": [
+    {
+      "title": "Añade aquí tu titulación o certificación principal",
+      "issuer": "Centro o entidad",
+      "period": "Año"
+    }
+  ]
+}
