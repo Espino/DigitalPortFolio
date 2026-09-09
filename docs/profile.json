@@ -109,7 +109,7 @@
       "summary": "Tarjeta profesional conectada a una web pública mediante QR y contenido versionado en GitHub.",
       "role": "Concepto · Diseño · Desarrollo",
       "technologies": ["Android", "GitHub Pages", "QR", "Offline-first"],
-      "url": "https://TU_USUARIO.github.io/digital-portfolio/"
+      "url": "https://espino.github.io/DigitalPortFolio/"
     }
   ],
   "skills": [
@@ -130,9 +130,9 @@
   ],
   "credentials": [
     {
-      "title": "Añade aquí tu titulación o certificación principal",
-      "issuer": "Centro o entidad",
-      "period": "Año"
+      "title": "DAM",
+      "issuer": "Universidad de Granada",
+      "period": "2019"
     }
   ]
 }

@@ -9,7 +9,7 @@
     "availability": "Disponible para colaboraciones, producto digital y proyectos estratégicos",
     "photoUrl": "",
     "shortBio": "Desarrollo productos móviles sólidos, claros y escalables, conectando estrategia, experiencia de usuario, arquitectura técnica y operación.",
-    "elevatorPitch": "Ayudo a empresas y emprendedores a convertir una necesidad real en una app útil y mantenible. Aporto visión de producto, desarrollo móvil senior y dirección operativa para llevar cada iniciativa desde la idea hasta una solución que pueda crecer."
+    "elevatorPitch": "Ayudo a empresas y emprendedores a convertir una necesidad real en una app útil y mantenible./n Aporto visión de producto, desarrollo móvil senior y dirección operativa para llevar cada iniciativa desde la idea hasta una solución que pueda crecer."
   },
   "contact": {
     "email": "jordiphonedeveloper@gmail.com",
@@ -68,8 +68,8 @@
   "experience": [
     {
       "role": "Empresario y Director de Operaciones",
-      "company": "Tu empresa o marca",
-      "period": "[AAAA] — Actualidad",
+      "company": "JESPLAY STUDIOS",
+      "period": "2014 — Actualidad",
       "summary": "Dirección de producto y operaciones digitales, coordinación de entregas y creación de soluciones adaptadas a pymes y emprendimiento.",
       "achievements": [
         "Sustituye este punto por un resultado medible de negocio.",
@@ -80,7 +80,7 @@
     {
       "role": "Senior Android & Mobile Developer",
       "company": "Proyectos para clientes y producto propio",
-      "period": "[AAAA] — Actualidad",
+      "period": "2014 — Actualidad",
       "summary": "Diseño y desarrollo de aplicaciones móviles con foco en arquitectura, mantenibilidad, experiencia de usuario y rendimiento.",
       "achievements": [
         "Apps Android con Kotlin y Jetpack Compose.",
@@ -102,14 +102,14 @@
       "summary": "Experiencia móvil local con catálogo, mapa, votación, ranking y funcionamiento conectado y offline.",
       "role": "Arquitectura · Desarrollo Android",
       "technologies": ["Compose", "Maps", "Retrofit", "Room"],
-      "url": ""
+      "url": "https://play.google.com/store/apps/details?id=com.jordi.rutataparivas"
     },
     {
       "name": "Digital Portfolio",
       "summary": "Tarjeta profesional conectada a una web pública mediante QR y contenido versionado en GitHub.",
       "role": "Concepto · Diseño · Desarrollo",
       "technologies": ["Android", "GitHub Pages", "QR", "Offline-first"],
-      "url": "https://TU_USUARIO.github.io/digital-portfolio/"
+      "url": "https://espino.github.io/DigitalPortFolio/"
     }
   ],
   "skills": [
@@ -130,9 +130,9 @@
   ],
   "credentials": [
     {
-      "title": "Añade aquí tu titulación o certificación principal",
-      "issuer": "Centro o entidad",
-      "period": "Año"
+      "title": "DAM",
+      "issuer": "Universidad de Granada",
+      "period": "2017"
     }
   ]
 }
