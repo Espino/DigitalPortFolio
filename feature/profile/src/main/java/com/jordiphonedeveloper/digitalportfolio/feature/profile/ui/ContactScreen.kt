@@ -58,7 +58,7 @@ fun ContactScreen(
             Column(Modifier.fillMaxWidth().widthIn(max = 920.dp)) {
                 PageHeader(
                     eyebrow = "Networking",
-                    title = "Proyectos Digitales",
+                    title = "HAZ CRECER TU NEGOCIO",
                     subtitle = profile.identity.availability,
                     state = state,
                     onIntent = onIntent,
@@ -70,15 +70,15 @@ fun ContactScreen(
 
         item { ContactAction(Icons.Outlined.AlternateEmail, "Email", profile.contact.email) { onIntent(ProfileIntent.OpenEmail) } }
         item { ContactAction(Icons.Outlined.Phone, "Teléfono", profile.contact.phone) { onIntent(ProfileIntent.OpenPhone) } }
-        item { ContactAction(Icons.Outlined.Language, "Web profesional", profile.contact.websiteUrl) { onIntent(ProfileIntent.OpenWebsite) } }
+        item { ContactAction(Icons.Outlined.Language, "Web profesional", profile.contact.websiteUrl, false) { onIntent(ProfileIntent.OpenWebsite) } }
         if (profile.contact.linkedInUrl.isNotBlank()) {
             item { ContactAction(Icons.Outlined.Work, "LinkedIn", profile.contact.linkedInUrl) { onIntent(ProfileIntent.OpenLinkedIn) } }
         }
         if (profile.contact.githubUrl.isNotBlank()) {
-            item { ContactAction(Icons.Outlined.Code, "GitHub", profile.contact.githubUrl) { onIntent(ProfileIntent.OpenGitHub) } }
+            item { ContactAction(Icons.Outlined.Code, "GitHub", profile.contact.githubUrl, false) { onIntent(ProfileIntent.OpenGitHub) } }
         }
         if (profile.contact.cvUrl.isNotBlank()) {
-            item { ContactAction(Icons.Outlined.Description, "Currículum web", profile.contact.cvUrl) { onIntent(ProfileIntent.OpenCv) } }
+            item { ContactAction(Icons.Outlined.Description, "Currículum web", profile.contact.cvUrl, false) { onIntent(ProfileIntent.OpenCv) } }
         }
     }
 }
@@ -130,6 +130,7 @@ private fun ContactAction(
     icon: ImageVector,
     title: String,
     value: String,
+    visibleValue: Boolean = true,
     onClick: () -> Unit,
 ) {
     Card(

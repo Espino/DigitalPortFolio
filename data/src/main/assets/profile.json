@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-09",
   "identity": {
-    "fullName": "Espino Developer",
-    "initials": "JD",
-    "headline": "Empresario · Senior Android & iOS Developer · Director de Operaciones",
+    "fullName": "Jorge Espino Romero · Espino Developer",
+    "initials": "JE",
+    "headline": "Espino Developer · Empresario · Senior Android & iOS Developer · Director de Operaciones",
     "location": "Rivas-Vaciamadrid · Madrid · España",
     "availability": "Disponible para colaboraciones, producto digital y proyectos estratégicos",
     "photoUrl": "",
-    "shortBio": "Desarrollo productos móviles sólidos, claros y escalables, conectando estrategia, experiencia de usuario, arquitectura técnica y operación.",
-    "elevatorPitch": "Ayudo a empresas y emprendedores a convertir una necesidad real en una app útil y mantenible./n Aporto visión de producto, desarrollo móvil senior y dirección operativa para llevar cada iniciativa desde la idea hasta una solución que pueda crecer."
+    "shortBio": "Desarrollador Android Senior, empresario y director de operaciones con más de diez años de experiencia en programación y productos digitales. Desarrollo soluciones móviles sólidas, claras y escalables, conectando estrategia, experiencia de usuario, arquitectura técnica y operación.",
+    "elevatorPitch": "Ayudo a empresas y emprendedores a convertir una necesidad real en una aplicación útil, mantenible y preparada para crecer. Aporto visión de producto, desarrollo móvil senior y dirección operativa para acompañar cada iniciativa desde la definición hasta la entrega y su evolución."
   },
   "contact": {
     "email": "jordiphonedeveloper@gmail.com",
@@ -21,29 +21,42 @@
     "cvUrl": "https://espino.github.io/DigitalPortFolio/cv.html"
   },
   "highlights": [
-    { "label": "Especialidad", "value": "Apps móviles" },
-    { "label": "Nivel", "value": "Senior" },
-    { "label": "Enfoque", "value": "Producto + Operaciones" }
+    {
+      "label": "Especialidad",
+      "value": "Apps móviles"
+    },
+    {
+      "label": "Nivel",
+      "value": "Senior"
+    },
+    {
+      "label": "Enfoque",
+      "value": "Producto + Operaciones"
+    },
+    {
+      "label": "Experiencia",
+      "value": "Más de 10 años"
+    }
   ],
   "services": [
     {
       "title": "Desarrollo Android",
-      "description": "Apps nativas con Kotlin, Jetpack Compose, Clean Architecture, MVVI, Room, Koin y APIs.",
+      "description": "Apps nativas con Kotlin, Jetpack Compose, Clean Architecture, MVVI, Room, Koin y APIs REST; desde funcionalidades nuevas hasta evolución de producto y publicación.",
       "icon": "android"
     },
     {
       "title": "iOS y multiplataforma",
-      "description": "Diseño de soluciones móviles coherentes entre plataformas y preparadas para evolucionar.",
+      "description": "Diseño de soluciones móviles coherentes entre plataformas, con una experiencia consistente y una base preparada para evolucionar.",
       "icon": "mobile"
     },
     {
       "title": "Arquitectura y modernización",
-      "description": "Auditoría, modularización, rendimiento, accesibilidad y mejora de bases de código existentes.",
+      "description": "Auditoría, modularización, migración a Compose, rendimiento, accesibilidad y mejora de bases de código existentes.",
       "icon": "architecture"
     },
     {
       "title": "Dirección de operaciones",
-      "description": "Priorización, coordinación, procesos, calidad de entrega y conexión entre negocio y tecnología.",
+      "description": "Priorización, coordinación, procesos, calidad de entrega y conexión práctica entre negocio, producto y tecnología.",
       "icon": "operations"
     }
   ],
@@ -58,11 +71,11 @@
     },
     {
       "title": "Entrega",
-      "description": "Convierto prioridades en incrementos funcionales con calidad, observabilidad y documentación."
+      "description": "Convierto prioridades en incrementos funcionales con calidad, observabilidad, documentación y coordinación de equipos."
     },
     {
       "title": "Mejora continua",
-      "description": "Analizo uso, incidencias y objetivos para evolucionar la solución con criterio de negocio."
+      "description": "Analizo uso, incidencias y objetivos para evolucionar la solución con criterio de negocio, rendimiento y experiencia de usuario."
     }
   ],
   "experience": [
@@ -70,69 +83,292 @@
       "role": "Empresario y Director de Operaciones",
       "company": "JESPLAY STUDIOS",
       "period": "2014 — Actualidad",
-      "summary": "Dirección de producto y operaciones digitales, coordinación de entregas y creación de soluciones adaptadas a pymes y emprendimiento.",
+      "summary": "Dirección de producto y operaciones digitales, coordinación de entregas y creación de soluciones adaptadas a pymes, emprendimiento y producto propio.",
       "achievements": [
-        "Sustituye este punto por un resultado medible de negocio.",
-        "Añade aquí una mejora de proceso, eficiencia o crecimiento.",
-        "Incluye una colaboración o iniciativa relevante para tu audiencia."
+        "Definición de necesidades, alcance, prioridades y hoja de ruta para iniciativas digitales.",
+        "Coordinación de entregas, procesos y calidad para conectar objetivos de negocio con decisiones técnicas.",
+        "Impulso de aplicaciones Android y productos digitales para empresas, proyectos de networking y experiencias locales."
       ]
     },
     {
       "role": "Senior Android & Mobile Developer",
       "company": "Proyectos para clientes y producto propio",
       "period": "2014 — Actualidad",
-      "summary": "Diseño y desarrollo de aplicaciones móviles con foco en arquitectura, mantenibilidad, experiencia de usuario y rendimiento.",
+      "summary": "Diseño y desarrollo de aplicaciones móviles con foco en arquitectura, mantenibilidad, experiencia de usuario, rendimiento y evolución de producto.",
       "achievements": [
-        "Apps Android con Kotlin y Jetpack Compose.",
-        "Clean Architecture, MVVI, Koin, Room, Retrofit y procesos offline-first.",
-        "Integración de servicios, analítica, publicación y mejora continua."
+        "Desarrollo Android nativo con Kotlin, Java y Jetpack Compose, desde interfaces modernas hasta integración con servicios y persistencia local.",
+        "Aplicación de Clean Architecture, SOLID, MVVM, MVI y MVVI con Koin, Room, Retrofit y estrategias offline-first.",
+        "Integración de APIs, analítica, geolocalización, pagos, comunicación, publicación en Play Store y mejora continua."
+      ]
+    },
+    {
+      "role": "Senior Android Developer",
+      "company": "ALTEN Soluciones",
+      "period": "2023 — 2026",
+      "summary": "Desarrollo Android para iniciativas de retail del grupo Inditex, con contribuciones en las aplicaciones de Pull&Bear y Zara Home.",
+      "achievements": [
+        "Participación en Pull&Bear y, posteriormente, Zara Home dentro de equipos de desarrollo Android.",
+        "Desarrollo y mantenimiento de funcionalidades móviles siguiendo estándares de calidad, arquitectura y revisión de código.",
+        "Coordinación con perfiles de producto, calidad y tecnología en entornos de trabajo ágiles."
+      ]
+    },
+    {
+      "role": "Android Developer",
+      "company": "Corporalabs",
+      "period": "2022 — 2023",
+      "summary": "Desarrollo de aplicaciones Android para producto retail, incluida la app de Bimba y Lola.",
+      "achievements": [
+        "Implementación y evolución de funcionalidades móviles orientadas a experiencia de compra y uso diario.",
+        "Consumo e integración de servicios REST en un contexto de producto comercial.",
+        "Trabajo con control de versiones, gestión de incidencias y colaboración técnica."
+      ]
+    },
+    {
+      "role": "Senior Android Developer",
+      "company": "Gurucall",
+      "period": "2020 — 2021",
+      "summary": "Arquitectura, programación y desarrollo de GuruApp, una aplicación para conectar solicitudes con expertos y profesionales.",
+      "achievements": [
+        "Construcción de funcionalidades Android para la interacción entre usuarios y profesionales.",
+        "Diseño técnico orientado a escalabilidad, mantenibilidad e integración de servicios.",
+        "Participación en la definición y evolución del producto móvil."
+      ]
+    },
+    {
+      "role": "Senior Android Developer",
+      "company": "CiberExperis",
+      "period": "2019",
+      "summary": "Desarrollo Android en un proyecto de banca móvil para particulares de Santander.",
+      "achievements": [
+        "Implementación de funcionalidades para una aplicación móvil de servicios financieros.",
+        "Trabajo en un contexto de producto de alta fiabilidad y experiencia de usuario.",
+        "Colaboración con equipos técnicos en la evolución de la aplicación."
+      ]
+    },
+    {
+      "role": "Senior Android Developer",
+      "company": "Telynet",
+      "period": "2018",
+      "summary": "Desarrollo Android en una empresa de software CRM con SDKs propios de comunicación y gestión de datos.",
+      "achievements": [
+        "Desarrollo de interfaces y funcionalidades para aplicaciones CRM.",
+        "Integración de SDKs y servicios de comunicación propios.",
+        "Trabajo con bases de datos y diseño de aplicaciones móviles."
+      ]
+    },
+    {
+      "role": "Android Developer",
+      "company": "i2a",
+      "period": "2017",
+      "summary": "Desarrollo Android para una solución ERP-CRM de reservas en instalaciones deportivas.",
+      "achievements": [
+        "Implementación de la app de reservas y sus flujos de usuario.",
+        "Integración de servicios REST y APIs de localización de Google.",
+        "Colaboración en un producto que conectaba procesos de gestión y experiencia móvil."
       ]
     }
   ],
   "projects": [
     {
       "name": "BeautyCRM Pro",
-      "summary": "CRM móvil para pymes y profesionales con clientes, agenda, servicios, bonos, ingresos y copias de seguridad.",
-      "role": "Producto · Android · Operaciones",
-      "technologies": ["Kotlin", "Compose", "MVVI", "Room", "Koin"],
+      "summary": "CRM móvil para centros de belleza, peluquería y bienestar con gestión de clientes, agenda, servicios, bonos, ingresos, informes y copias de seguridad. Diseñado para que pequeñas empresas centralicen su operativa diaria en una experiencia clara y offline-first.",
+      "role": "Producto · Android · Arquitectura · Operaciones",
+      "technologies": [
+        "Kotlin",
+        "Jetpack Compose",
+        "MVVI",
+        "Room",
+        "Koin",
+        "Retrofit",
+        "DataStore",
+        "WorkManager",
+        "Google Drive"
+      ],
       "url": ""
     },
     {
       "name": "Ruta de la Tapa Rivas 2026",
-      "summary": "Experiencia móvil local con catálogo, mapa, votación, ranking y funcionamiento conectado y offline.",
-      "role": "Arquitectura · Desarrollo Android",
-      "technologies": ["Compose", "Maps", "Retrofit", "Room"],
+      "summary": "Experiencia móvil para una ruta gastronómica local con catálogo de establecimientos, vista de detalle, mapa, votación, ranking en directo y gestión de votos. Combina datos conectados con persistencia local para ofrecer una experiencia fiable.",
+      "role": "Producto · Arquitectura · Desarrollo Android",
+      "technologies": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Google Maps",
+        "Retrofit",
+        "Room",
+        "DataStore",
+        "AdMob"
+      ],
       "url": "https://play.google.com/store/apps/details?id=com.jordi.rutataparivas"
     },
     {
+      "name": "Apps Android para Pull&Bear y Zara Home",
+      "summary": "Contribución al desarrollo y mantenimiento de aplicaciones Android de retail en equipos del grupo Inditex.",
+      "role": "Senior Android Developer",
+      "technologies": [
+        "Android",
+        "Kotlin",
+        "APIs REST",
+        "Git",
+        "Agile"
+      ],
+      "url": ""
+    },
+    {
+      "name": "App Bimba y Lola",
+      "summary": "Desarrollo de aplicación Android orientada a producto retail y experiencia de compra móvil.",
+      "role": "Android Developer",
+      "technologies": [
+        "Android",
+        "APIs REST",
+        "Git",
+        "Jira"
+      ],
+      "url": ""
+    },
+    {
+      "name": "GuruApp",
+      "summary": "Aplicación móvil para conectar solicitudes con expertos y profesionales, desarrollada en el contexto de Gurucall.",
+      "role": "Arquitectura · Desarrollo Android",
+      "technologies": [
+        "Android",
+        "Kotlin",
+        "APIs REST",
+        "Arquitectura móvil"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Banca móvil para particulares",
+      "summary": "Proyecto Android para la aplicación de banca de Santander para clientes particulares.",
+      "role": "Senior Android Developer",
+      "technologies": [
+        "Android",
+        "Java",
+        "Kotlin",
+        "APIs"
+      ],
+      "url": ""
+    },
+    {
+      "name": "App de reservas ERP-CRM",
+      "summary": "Aplicación Android de reservas para instalaciones deportivas, integrada con servicios REST y APIs de localización de Google.",
+      "role": "Android Developer",
+      "technologies": [
+        "Android",
+        "Servicios REST",
+        "Google Maps",
+        "ERP-CRM"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Networking Centro de Empresas",
+      "summary": "Proyecto Android para facilitar la conexión y el networking entre empresas, desarrollado en el marco de JESPLAY STUDIOS.",
+      "role": "Dirección · Desarrollo Android",
+      "technologies": [
+        "Android",
+        "Producto digital",
+        "Networking"
+      ],
+      "url": ""
+    },
+    {
       "name": "Digital Portfolio",
-      "summary": "Tarjeta profesional conectada a una web pública mediante QR y contenido versionado en GitHub.",
-      "role": "Concepto · Diseño · Desarrollo",
-      "technologies": ["Android", "GitHub Pages", "QR", "Offline-first"],
+      "summary": "Tarjeta profesional Android conectada a una web pública mediante QR. App y portfolio comparten un único perfil JSON versionado en GitHub Pages, con caché offline-first en Room para que la información siga disponible sin conexión.",
+      "role": "Concepto · Diseño · Desarrollo Android y Web",
+      "technologies": [
+        "Android",
+        "Kotlin",
+        "Jetpack Compose",
+        "GitHub Pages",
+        "QR",
+        "Room",
+        "Retrofit",
+        "Offline-first"
+      ],
       "url": "https://espino.github.io/DigitalPortFolio/"
     }
   ],
   "skills": [
     "Kotlin",
-    "Jetpack Compose",
+    "Java",
     "Android",
+    "Android Studio",
+    "Jetpack Compose",
+    "Material Design",
     "iOS",
     "Clean Architecture",
+    "SOLID",
+    "Arquitectura modular",
     "MVVM / MVI / MVVI",
     "Koin",
+    "Dagger Hilt",
     "Room",
+    "SQLite",
     "Retrofit",
     "APIs REST",
+    "Offline-first",
+    "Firebase",
+    "Analytics",
+    "Google Maps y geolocalización",
+    "Pruebas unitarias · JUnit 5 · Mockito",
+    "Gradle",
+    "Maven",
+    "CI/CD · Bitrise · App Center · Jenkins",
+    "Fastlane",
+    "Git · GitHub · GitLab · Bitbucket · SVN",
+    "Jira · Redmine · Trello · Slack",
+    "Postman · Swagger · Charles Proxy",
+    "Rendimiento",
+    "Rendimiento Android · R8 · Android Vitals",
+    "Accesibilidad",
     "Diseño de producto",
     "Dirección de operaciones",
-    "Accesibilidad",
-    "Rendimiento"
+    "Stripe · Adyen",
+    "Twilio · Agora",
+    "Google Play Store",
+    "HTML5 · CSS",
+    "WordPress · Joomla",
+    "Figma · Zeplin · Abstract",
+    "SQL · PL/SQL",
+    "C# · Unity 2D",
+    "Microsoft Dynamics NAV · C/AL",
+    "Blockchain Ethereum · Solidity · Remix",
+    "VR · AR · Three.js",
+    "Español nativo",
+    "Inglés intermedio"
   ],
   "credentials": [
     {
-      "title": "DAM",
+      "title": "DAM · Desarrollo de Aplicaciones Multiplataforma",
       "issuer": "Universidad de Granada",
-      "period": "2017"
+      "period": "2016 — 2017"
+    },
+    {
+      "title": "Gestión de proyectos de desarrollo de software",
+      "issuer": "Formación complementaria",
+      "period": "Cursos profesionales"
+    },
+    {
+      "title": "Oracle · SQL · PL/SQL · C# y Java",
+      "issuer": "Formación técnica",
+      "period": "Cursos profesionales"
+    },
+    {
+      "title": "Unity · desarrollo de juegos 2D y fundamentos de C#",
+      "issuer": "Formación técnica",
+      "period": "Cursos profesionales"
+    },
+    {
+      "title": "Microsoft Dynamics NAV · Visual Studio · C/AL",
+      "issuer": "Formación técnica",
+      "period": "Cursos profesionales"
+    },
+    {
+      "title": "Web 3.0 · Blockchain · Solidity · Remix · VR y Three.js",
+      "issuer": "Formación tecnológica",
+      "period": "Cursos profesionales"
     }
   ]
 }

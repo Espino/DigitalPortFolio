@@ -54,7 +54,7 @@ fun ExperienceScreen(
             Column(Modifier.fillMaxWidth().widthIn(max = 1040.dp)) {
                 PageHeader(
                     eyebrow = "Experiencia",
-                    title = "Trayectoria y forma de trabajar",
+                    title = "Trayectoria",
                     subtitle = "La tecnología crea valor cuando está conectada con objetivos, personas y una operación clara.",
                     state = state,
                     onIntent = onIntent,
@@ -72,7 +72,7 @@ fun ExperienceScreen(
             Column(Modifier.padding(top = 12.dp)) {
                 SectionTitle(
                     "Experiencia profesional",
-                    "Ejemplo editable: sustituye periodos y logros por tus datos contrastables.",
+                    "Desarrollo y operaciones",
                 )
             }
         }
