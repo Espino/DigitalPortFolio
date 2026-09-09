@@ -258,7 +258,11 @@ internal fun BusinessCardActions(onIntent: (ProfileIntent) -> Unit) {
 @Composable
 private fun CardActions(onIntent: (ProfileIntent) -> Unit) {
     FlowRow(
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(
+            space = 10.dp,
+            alignment = Alignment.CenterHorizontally,
+        ),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Button(
