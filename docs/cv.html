@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#071521">
-  <meta name="description" content="Currículum profesional de Jordi Developer.">
-  <title>Currículum · Jordi Developer</title>
+  <meta name="description" content="Currículum profesional de Jorge Espino Romero, Senior Android y Mobile Developer.">
+  <title>Currículum · Jorge Espino Romero</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="cv.js" defer></script>
@@ -14,55 +14,86 @@
   <a class="skip-link" href="#cvContent">Saltar al currículum</a>
   <header class="cv-toolbar shell">
     <a class="brand" href="index.html">
-      <span class="brand-mark" id="cvBrandInitials">JD</span>
-      <span class="brand-copy"><strong>Volver al perfil</strong><small>Digital Portfolio</small></span>
+      <span class="brand-mark" id="cvBrandInitials">JE</span>
+      <span class="brand-copy"><strong>Volver al perfil</strong><small>Espino Developer</small></span>
     </a>
     <button class="button primary" id="printButton" type="button">Imprimir / Guardar PDF</button>
   </header>
 
   <main class="cv-page" id="cvContent">
     <header class="cv-header">
-      <div>
+      <div class="cv-header-copy">
         <p class="eyebrow">Currículum profesional</p>
-        <h1 id="cvName">Jordi Developer</h1>
+        <h1 id="cvName">Jorge Espino Romero</h1>
         <p class="headline" id="cvHeadline"></p>
-        <p id="cvLocation"></p>
+        <div class="cv-header-meta">
+          <p class="cv-location" id="cvLocation"></p>
+          <p class="cv-availability" id="cvAvailability"></p>
+        </div>
       </div>
-      <div class="cv-monogram" id="cvMonogram">JD</div>
+      <div class="cv-monogram" id="cvMonogram" aria-label="Iniciales profesionales">JE</div>
     </header>
 
-    <section class="cv-intro">
-      <h2>Perfil</h2>
+    <section class="cv-intro" aria-labelledby="cvProfileTitle">
+      <div class="cv-section-heading">
+        <p class="eyebrow">Perfil</p>
+        <h2 id="cvProfileTitle">Tecnología, producto y operación</h2>
+      </div>
       <p id="cvBio"></p>
       <p id="cvPitch"></p>
     </section>
 
+    <section class="cv-contact-strip" aria-labelledby="cvContactTitle">
+      <h2 id="cvContactTitle">Contacto</h2>
+      <div class="cv-contact-list" id="cvContact"></div>
+    </section>
+
+    <section class="cv-highlights-section" aria-label="Resumen profesional">
+      <div class="cv-highlights" id="cvHighlights"></div>
+    </section>
+
     <div class="cv-columns">
       <div class="cv-main">
-        <section>
-          <h2>Experiencia</h2>
-          <div id="cvExperience"></div>
+        <section class="cv-section" aria-labelledby="cvExperienceTitle">
+          <div class="cv-section-heading">
+            <p class="eyebrow">Trayectoria</p>
+            <h2 id="cvExperienceTitle">Experiencia profesional</h2>
+          </div>
+          <div class="cv-entry-list" id="cvExperience"></div>
         </section>
-        <section>
-          <h2>Proyectos</h2>
-          <div id="cvProjects"></div>
+
+        <section class="cv-section" aria-labelledby="cvProjectsTitle">
+          <div class="cv-section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2 id="cvProjectsTitle">Proyectos y producto</h2>
+          </div>
+          <div class="cv-project-grid" id="cvProjects"></div>
         </section>
       </div>
-      <aside class="cv-side">
-        <section>
-          <h2>Contacto</h2>
-          <div id="cvContact"></div>
+
+      <aside class="cv-side" aria-label="Competencias y formación">
+        <section class="cv-section" aria-labelledby="cvSkillsTitle">
+          <div class="cv-section-heading">
+            <p class="eyebrow">Stack y capacidades</p>
+            <h2 id="cvSkillsTitle">Competencias</h2>
+          </div>
+          <div class="cv-skill-groups" id="cvSkills"></div>
         </section>
-        <section>
-          <h2>Competencias</h2>
-          <div class="skill-list" id="cvSkills"></div>
-        </section>
-        <section>
-          <h2>Formación</h2>
-          <div id="cvCredentials"></div>
+
+        <section class="cv-section" aria-labelledby="cvCredentialsTitle">
+          <div class="cv-section-heading">
+            <p class="eyebrow">Aprendizaje continuo</p>
+            <h2 id="cvCredentialsTitle">Formación</h2>
+          </div>
+          <div class="cv-credentials" id="cvCredentials"></div>
         </section>
       </aside>
     </div>
+
+    <footer class="cv-footer">
+      <p>Espino Developer · Perfil profesional</p>
+      <p>Actualizado: <time id="cvUpdatedAt"></time></p>
+    </footer>
   </main>
 </body>
 </html>
